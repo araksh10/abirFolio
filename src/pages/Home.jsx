@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ArrowDownCircleIcon as Arrow } from "lucide-react";
 
 const Home = () => {
 	return (
@@ -27,6 +28,33 @@ const Home = () => {
 			>
 				<a href="#projects">View My Missions</a>
 			</motion.div>
+
+			<div className="flex justify-around w-full mt-20">
+				<motion.div
+					className="mt-6 px-6 py-2 w-40 text-center bg-sky-700 rounded-xl font-bold shadow-lg hover:bg-sky-500 transition"
+					whileHover={{ scale: 1.1 }}
+				>
+					<a href="#about">Introduction</a>
+				</motion.div>
+				<motion.div
+					className="mt-6 px-6 py-2 w-40 text-center bg-sky-700 rounded-xl font-bold shadow-lg hover:bg-sky-500 transition"
+					whileHover={{ scale: 1.1 }}
+				>
+					<a href="#skills">Skills</a>
+				</motion.div>
+				<motion.div
+					className="mt-6 px-6 py-2 w-40 text-center bg-sky-700 rounded-xl font-bold shadow-lg hover:bg-sky-500 transition"
+					whileHover={{ scale: 1.1 }}
+				>
+					<a href="#contact">Contacts</a>
+				</motion.div>
+			</div>
+
+			<div className="flex justify-center items-center h-100 animate-pulse">
+				<a href="#about">
+					<Arrow size={80} />
+				</a>
+			</div>
 		</section>
 	);
 };

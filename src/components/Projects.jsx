@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import animgel from "../assets/projects/animgel.png";
 import portfolio from "../assets/projects/portfolio.png";
+import booklib from "../assets/projects/booklib.png";
 
 const projects = [
 	{
@@ -8,9 +9,18 @@ const projects = [
 		image: `${animgel}`,
 		description:
 			"A fullstack GraphQL-based anime database app featuring Studio, Genre, and dynamic filters.",
-		tech: ["React", "GraphQL", "MongoDB", "Tailwind"],
-		repo: "https://github.com/yourusername/animgel",
-		live: "https://animgel.netlify.app",
+		tech: ["React", "Redux", "GraphQL", "MongoDB", "Tailwind", "Netlify"],
+		repo: "https://github.com/araksh10/Animgel-v2",
+		live: "https://animgel.netlify.app/",
+	},
+	{
+		title: "Book-Lib",
+		image: `${booklib}`,
+		description:
+			"A collection of Books with adding, editing and deleting feature.",
+		tech: ["React", "Tailwind", "Framer Motion"],
+		repo: "https://github.com/araksh10/BookLib",
+		live: "https://booklib-araksh.netlify.app/",
 	},
 	{
 		title: "Portfolio Website",
@@ -18,8 +28,8 @@ const projects = [
 		description:
 			"Your personal tech-ninja dojo showcasing your journey, skills, and scrolls.",
 		tech: ["React", "Tailwind", "Framer Motion"],
-		repo: "https://github.com/yourusername/portfolio",
-		live: "https://yourname.dev",
+		repo: "https://github.com/araksh10/abirFolio",
+		live: "",
 	},
 	// Add more projects
 ];

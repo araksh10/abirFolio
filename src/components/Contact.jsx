@@ -7,7 +7,7 @@ const Contact = () => {
 			initial={{ opacity: 0, y: 30 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.8 }}
-			className="p-8 text-white bg-gradient-to-tr from-slate-900 to-slate-800 rounded-2xl shadow-xl mt-10"
+			className="p-8 text-white bg-gradient-to-tr from-slate-900 to-slate-800 rounded-t-4xl shadow-xl mt-10"
 			id="contact"
 		>
 			<h2 className="text-3xl md:text-4xl font-extrabold tracking-wider text-center mb-4">

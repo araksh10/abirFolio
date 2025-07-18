@@ -5,15 +5,42 @@ import javascriptImg from "../assets/skills/javascript.png";
 import reactImg from "../assets/skills/react.png";
 import tailwindImg from "../assets/skills/tailwind.png";
 import nodeImg from "../assets/skills/node.png";
+import mongodbImg from "../assets/skills/mongodb.png";
+import reduxImg from "../assets/skills/redux.png";
+import graphqlImg from "../assets/skills/graphql.png";
+import apolloImg from "../assets/skills/apollo.png";
+import gitImg from "../assets/skills/git.png";
+import githubImg from "../assets/skills/github.png";
+import mysqlImg from "../assets/skills/mysql.png";
+import kaliImg from "../assets/skills/kali.png";
+import mintImg from "../assets/skills/mint.png";
+import ubuntuImg from "../assets/skills/ubuntu.png";
+import vscodeImg from "../assets/skills/vscode.png";
+import win11Img from "../assets/skills/win11.png";
+import webstormImg from "../assets/skills/webstorm.png";
+import bootstrapImg from "../assets/skills/bootstrap.png";
 
 const skills = [
+	{ name: "React", icon: `${reactImg}` },
 	{ name: "HTML", icon: `${htmlImg}` },
 	{ name: "CSS", icon: `${cssImg}` },
 	{ name: "JavaScript", icon: `${javascriptImg}` },
-	{ name: "React", icon: `${reactImg}` },
-	{ name: "Tailwind", icon: `${tailwindImg}` },
+	{ name: "Redux", icon: `${reduxImg}` },
 	{ name: "Node.js", icon: `${nodeImg}` },
-	// Add more: MongoDB, GraphQL, Git, etc.
+	{ name: "Tailwind", icon: `${tailwindImg}` },
+	{ name: "BootStrap", icon: `${bootstrapImg}` },
+	{ name: "MongoDB", icon: `${mongodbImg}` },
+	{ name: "MySQL", icon: `${mysqlImg}` },
+	{ name: "GraphQL", icon: `${graphqlImg}` },
+	{ name: "Apollo", icon: `${apolloImg}` },
+	{ name: "Git", icon: `${gitImg}` },
+	{ name: "GitHub", icon: `${githubImg}` },
+	{ name: "VS Code", icon: `${vscodeImg}` },
+	{ name: "WebStorm", icon: `${webstormImg}` },
+	{ name: "Windows", icon: `${win11Img}` },
+	{ name: "Kali Linux", icon: `${kaliImg}` },
+	{ name: "Linux Mint", icon: `${mintImg}` },
+	{ name: "Ubuntu", icon: `${ubuntuImg}` },
 ];
 
 const Skills = () => {
