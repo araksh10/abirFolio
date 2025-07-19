@@ -9,8 +9,8 @@ const Hero = () => {
 			className="relative h-screen w-full bg-cover bg-center flex items-center justify-center text-white"
 			style={{ backgroundImage: `url(${bgImage})` }}
 		>
-			<div className="customShape bg-sky-300/20 backdrop-blur-md h-full w-full">
-				<div className="flex justify-center items-center h-full w-full m-7 rounded-2xl border-e-2 border-white/30">
+			<div className="h-full w-full backdrop-blur-lg py-30 md:p-0 lg:px-30">
+				<div className="customShape flex justify-center items-center  bg-sky-300/25 backdrop-blur-md h-full w-full">
 					<div className="bg-black/60 p-8 rounded-xl shadow-lg text-center">
 						<motion.h1
 							initial={{ opacity: 0, y: -50 }}
