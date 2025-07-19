@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDownCircleIcon as Arrow } from "lucide-react";
 
-const Home = () => {
+const Hero = () => {
 	return (
 		<section className="w-full h-screen bg-black text-white flex flex-col justify-center items-center relative overflow-hidden">
 			<motion.h1
@@ -39,6 +39,7 @@ const Home = () => {
 				<motion.div
 					className="mt-6 px-6 py-2 w-40 text-center bg-sky-700 rounded-xl font-bold shadow-lg hover:bg-sky-500 transition"
 					whileHover={{ scale: 1.1 }}
+					animate={{ s }}
 				>
 					<a href="#skills">Skills</a>
 				</motion.div>
@@ -59,4 +60,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Hero;
