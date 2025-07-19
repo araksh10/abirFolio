@@ -9,7 +9,15 @@ const projects = [
 		image: `${animgel}`,
 		description:
 			"A fullstack GraphQL-based anime database app featuring Studio, Genre, and dynamic filters.",
-		tech: ["React", "Redux", "GraphQL", "MongoDB", "Tailwind", "Netlify"],
+		tech: [
+			"React",
+			"Redux",
+			"GraphQL",
+			"Apollo",
+			"MongoDB",
+			"Tailwind",
+			"Netlify",
+		],
 		repo: "https://github.com/araksh10/Animgel-v2",
 		live: "https://animgel.netlify.app/",
 	},
@@ -18,7 +26,7 @@ const projects = [
 		image: `${booklib}`,
 		description:
 			"A collection of Books with adding, editing and deleting feature.",
-		tech: ["React", "Tailwind", "Framer Motion"],
+		tech: ["React", "Tailwind", "Node.js", "Netlify", "Railway"],
 		repo: "https://github.com/araksh10/BookLib",
 		live: "https://booklib-araksh.netlify.app/",
 	},
@@ -29,7 +37,7 @@ const projects = [
 			"Your personal tech-ninja dojo showcasing your journey, skills, and scrolls.",
 		tech: ["React", "Tailwind", "Framer Motion"],
 		repo: "https://github.com/araksh10/abirFolio",
-		live: "",
+		live: "https://abirfolio.vercel.app/",
 	},
 	// Add more projects
 ];
