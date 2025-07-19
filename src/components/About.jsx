@@ -17,7 +17,7 @@ const About = () => {
 				<img
 					src={avatar}
 					alt="avatar"
-					className="w-40 h-40 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
+					className="w-40 h-40 md:w-64 md:h-64 object-cover rounded-full shadow-lg border-e-4 border-blue-500/60"
 				/>
 
 				<div>
