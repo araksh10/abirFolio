@@ -26,8 +26,7 @@ const Hero = () => {
 							transition={{ delay: 0.5, duration: 1 }}
 							className="mt-4 text-lg md:text-xl italic"
 						>
-							Samurai Web Developer ⚔️ | Hacker in Training 💻 | Tech-King
-							Dreamer 👑
+							JS Web Developer ⚔️ | Full Day Training 💻 | MERN Stack 🤞🏽
 						</motion.p>
 					</div>
 				</div>
