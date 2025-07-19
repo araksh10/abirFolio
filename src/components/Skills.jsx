@@ -19,6 +19,7 @@ import vscodeImg from "../assets/skills/vscode.png";
 import win11Img from "../assets/skills/win11.png";
 import webstormImg from "../assets/skills/webstorm.png";
 import bootstrapImg from "../assets/skills/bootstrap.png";
+import angularImg from "../assets/skills/angular.png";
 
 const skills = [
 	{ name: "React", icon: `${reactImg}` },
@@ -27,6 +28,7 @@ const skills = [
 	{ name: "JavaScript", icon: `${javascriptImg}` },
 	{ name: "Redux", icon: `${reduxImg}` },
 	{ name: "Node.js", icon: `${nodeImg}` },
+	{ name: "AngularJS", icon: `${angularImg}` },
 	{ name: "Tailwind", icon: `${tailwindImg}` },
 	{ name: "BootStrap", icon: `${bootstrapImg}` },
 	{ name: "MongoDB", icon: `${mongodbImg}` },
