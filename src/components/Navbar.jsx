@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
 	return (
-		<div className="absolute inset-0 h-25 z-10 flex justify-between items-center bg-sky-800 contain-content">
+		<motion.div
+			initial={{ opacity: 0, y: -50 }}
+			animate={{ opacity: 1, y: 0 }}
+			transition={{ duration: 1 }}
+			className="absolute inset-0 h-25 z-10 flex justify-between items-center bg-sky-800 contain-content"
+		>
 			<div className="flex contain-content">
 				<div className="m-2">
 					<img className="size-20" src={Logo} alt="" />
@@ -28,7 +33,7 @@ const Navbar = () => {
 					<a href="#contact">Contact</a>
 				</button>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
